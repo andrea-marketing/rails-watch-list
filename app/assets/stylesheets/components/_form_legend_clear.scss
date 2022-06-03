@@ -9,3 +9,17 @@ legend ~ div.form-check:first-of-type {
   clear: left;
 }
 
+.form{
+  background-color: white;
+  width: auto;
+  margin: 100px auto;
+  padding: 43px;
+  box-shadow: 1px 1px 3px white;
+  width: 600px;
+  a{
+    text-decoration: none;
+  }
+  h2 {
+    padding: 10px 0;
+  }
+}

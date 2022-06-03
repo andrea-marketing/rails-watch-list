@@ -8,6 +8,10 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
 }
 
 .cards {
@@ -37,10 +41,11 @@
   box-shadow: 0 0 15px rgb(0, 0, 0);
   width: 450px;
   border-radius: 4px;
+  width: 80%;
 }
 
+
 .card-movie > img {
-  height: 150px;
   width: 100%;
   object-fit: cover;
   object-position: top;

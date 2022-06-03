@@ -1,3 +1,4 @@
+<div class="form">
 <h2>Create new bookmark</h2>
 
 <%= link_to "Go back", list_path(@list)%>
@@ -6,5 +7,6 @@
   <%= f.input :comment %>
   <%= f.association :movie %>
 
-  <%= f.button :submit %>
+  <%= f.button :submit, class:"btn btn-success" %>
 <% end %>
+</div>
