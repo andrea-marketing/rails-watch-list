@@ -1,0 +1,6 @@
+<h2>Create new list</h2>
+<%= link_to "Go back", root_path%>
+<%= simple_form_for(@list) do |f| %>
+  <%= f.input :name %>
+  <%= f.submit "Save list" %>
+<% end %>
